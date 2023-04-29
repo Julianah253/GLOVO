@@ -16,7 +16,6 @@
   width: 100%;
   max-width: 208px;
   text-align: center;
-  position: relative;
   cursor: pointer;
 }
 .restaurants .top .image-text img {
@@ -27,7 +26,6 @@
   border-radius: 50% 50% 50% 50%;
 }
 .restaurants .top .image-text .text {
-  position: relative;
   margin-top: -16px;
 }
 .restaurants .top .image-text .text h3 {
@@ -50,7 +48,6 @@
   width: 100%;
   max-width: 208px;
   text-align: center;
-  position: relative;
   cursor: pointer;
 }
 .restaurants .bottom .image-text img {
@@ -61,7 +58,6 @@
   border-radius: 60% 60% 60% 60%;
 }
 .restaurants .bottom .image-text .text {
-  position: relative;
   margin-top: -16px;
 }
 .restaurants .bottom .image-text .text h3 {
@@ -73,4 +69,201 @@
   border-radius: 8px;
   background-color: #ffc244;
   padding: 4px 12px;
+}
+.restaurants .bottom .image-text .text span {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 700;
+  word-wrap: anywhere;
+  display: inline;
+  border-radius: 8px;
+  background-color: #ffc244;
+  padding: 4px 12px;
+  margin-left: 10px;
+}
+
+.hmm h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.hmm .delivery {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.hmm .delivery .cities {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.hmm .delivery .cities h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.hmm .delivery .cities p {
+  text-align: center;
+}
+.hmm button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #00a082;
+  position: relative;
+  height: 50px;
+  width: 300px;
+  font-size: 1.1rem;
+  line-height: 1.43;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 24px;
+  text-align: center;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.hmm button:hover {
+  background-color: #00846b;
+}
+
+.section {
+  position: relative;
+}
+.section .custom-shape-divider-top-1682393798 .custom-shape-divider-top-1682393798 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.section .custom-shape-divider-top-1682393798 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 61px;
+}
+.section .custom-shape-divider-top-1682393798 .shape-fill {
+  fill: #ffc244;
+}
+
+.top_cities {
+  background-color: #ffc244;
+  gap: 20px;
+  display: grid;
+}
+.top_cities img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.top_cities h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.top_cities .atags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.top_cities .atags a {
+  color: #000000;
+  background-color: #fff3da;
+  text-decoration: none;
+  position: relative;
+  height: 45px;
+  width: 150px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 24px;
+  text-align: center;
+  border: none;
+}
+.top_cities .atags .a {
+  background-color: #fff3da;
+  text-decoration: none;
+  position: relative;
+  height: 55px;
+  width: 200px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 24px;
+  text-align: center;
+  border: none;
+}
+.top_cities .ibadan {
+  color: #000000;
+  background-color: #fff3da;
+  text-decoration: none;
+  position: relative;
+  height: 45px;
+  width: 150px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 24px;
+  text-align: center;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.top_cities button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #00a082;
+  position: relative;
+  height: 50px;
+  width: 300px;
+  font-size: 1.1rem;
+  line-height: 1.43;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 24px;
+  text-align: center;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.top_cities button:hover {
+  background-color: #00846b;
+}
+.top_cities .categories .atags2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top_cities .categories .atags2 a {
+  color: #000000;
+  background-color: #fff3da;
+  text-decoration: none;
+  position: relative;
+  height: 45px;
+  width: 150px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 24px;
+  text-align: center;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }/*# sourceMappingURL=rest.css.map */

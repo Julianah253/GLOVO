@@ -7,9 +7,7 @@ const App = () => {
   return (
     <div>
       <Nav/>   
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <br/><br/><br/><br/><br/>
       <Rest/>
     </div>
   )

@@ -14,12 +14,13 @@
         justify-content: center;
         align-items: center;
         height: 200px;
+
         .image-text
         {
             width: 100%;
             max-width: 208px;
             text-align: center;
-            position: relative;
+            // position: relative;
             cursor: pointer;
         
              img 
@@ -32,7 +33,7 @@
              }
              .text 
              {
-                position: relative;
+                // position: relative;
                 margin-top: calc(16px*-1);
                 h3 
                 {
@@ -62,7 +63,7 @@
             width: 100%;
             max-width: 208px;
             text-align: center;
-            position: relative;
+            // position: relative;
             cursor: pointer;
         
              img 
@@ -75,7 +76,7 @@
              }
              .text 
              {
-                position: relative;
+                // position: relative;
                 margin-top: calc(16px*-1);
                 h3 
                 {
@@ -89,7 +90,255 @@
                     background-color:#ffc244;
                     padding: 4px 12px;
                 }
+
+                span
+                {
+                    font-size: 16px;
+                    line-height: 1.4;
+                    font-weight: 700;
+                    // color: var(--helio-color-primaryText);
+                    word-wrap: anywhere;
+                    display: inline;
+                    border-radius: 8px;
+                    background-color:#ffc244;
+                    padding: 4px 12px;
+                    margin-left: 10px;
+                }
              }
         }
+    }
+}
+
+.hmm
+{
+    h2 
+    {
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .delivery
+    {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+
+        .cities
+        {
+            text-align: center;
+            // display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h3 
+            {
+                font-size: 1.2rem;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            p 
+            {
+                text-align: center;
+            }
+        }
+    }
+
+    button 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffffff;
+        background-color: #00a082;
+        position: relative;
+        height: 50px;
+        width: 300px;
+        font-size: 1.1rem;
+        line-height: 1.43;
+        font-weight: 700;
+        padding: 10px;
+        border-radius: 24px;
+        text-align: center;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        &:hover
+        {
+            background-color: #00846BFF;
+        }
+    }
+}
+
+
+.section
+{
+    position: relative;
+
+
+    .custom-shape-divider-top-1682393798
+    {
+        .custom-shape-divider-top-1682393798 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
+        
+        svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 61px;
+        }
+        
+        .shape-fill {
+            fill: #ffc244;
+        }
+    }
+}
+   
+
+.top_cities
+{
+    background-color: #ffc244;
+    gap: 20px;
+    display: grid;
+    // height: 800px;
+    img 
+    {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    h2 
+    {
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .atags
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+      a 
+      {
+        color: #000000;
+        background-color: #fff3da;
+        text-decoration: none;
+        position: relative;
+        height: 45px;
+        width: 150px;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 600;
+        padding: 10px;
+        border-radius: 24px;
+        text-align: center;
+        border: none;
+      }
+
+      .a 
+      {
+        // color: #000000;
+        background-color: #fff3da;
+        text-decoration: none;
+        position: relative;
+        height: 55px;
+        width: 200px;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 600;
+        padding: 15px;
+        border-radius: 24px;
+        text-align: center;
+        border: none;
+      }
+    }
+
+    .ibadan
+    {
+      color: #000000;
+      background-color: #fff3da;
+      text-decoration: none;
+      position: relative;
+      height: 45px;
+      width: 150px;
+      font-size: 20px;
+      line-height: 1.2;
+      font-weight: 600;
+      padding: 15px;
+      border-radius: 24px;
+      text-align: center;
+      border: none;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    
+    button 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffffff;
+        background-color: #00a082;
+        position: relative;
+        height: 50px;
+        width: 300px;
+        font-size: 1.1rem;
+        line-height: 1.43;
+        font-weight: 700;
+        padding: 10px;
+        border-radius: 24px;
+        text-align: center;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        &:hover
+        {
+            background-color: #00846BFF;
+        }
+    }
+
+    .categories
+    {
+      .atags2
+      {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a 
+        {
+            color: #000000;
+      background-color: #fff3da;
+      text-decoration: none;
+      position: relative;
+      height: 45px;
+      width: 150px;
+      font-size: 20px;
+      line-height: 1.2;
+      font-weight: 600;
+      padding: 15px;
+      border-radius: 24px;
+      text-align: center;
+      border: none;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+        }
+      }
     }
 }
